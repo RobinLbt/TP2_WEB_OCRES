@@ -32,6 +32,10 @@ header .logo-search form  {
     width: 50%;
 }
 
+.form{
+    width: 40%;
+}
+
 header .user {
     float: right;
 }
@@ -216,6 +220,15 @@ nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
+@media screen and (max-width: 950px) {
+    #aside {
+      display: none;
+    }
+  }
 
-
+  @media screen and (max-width: 750px) {
+    .form{
+        display: none;
+    }
+  }
 
